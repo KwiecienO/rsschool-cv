@@ -1,36 +1,39 @@
 Volha  Kuratnik
 ============
-
+                                        
 ![my image](./img2.jpg)
-  
 
-|__Contact__                 |
-|----------------------------|
-|                            |
-|__Address:__                |
-|str. Mohna 34a/7            |
-|87-100 Poland               |
-|                            |
-|__Phone:__                  | 
-|tel. +48 791647564          |
-|                            |
-|__Email:__                  |                   
-|volhakuratnik@gmail.com     |  
+__Career Goal__ - To finish RS school and obtain a responsible and challenging Front End Developer’s position 
+***** 
+
+|                     |__Contact__ |             |__details__|               |           
+|:--------------------|-----------:|:-----------:|:----------|:--------------:|
+|                     |            |             |           |               |   
+|__Address:__         |            |__Phone:__   |           |__Email:__ |                                
+|str. Mohna 34a/7     |            |+48 791647564|           |volhakuratnik@gmail.com|
+|87-100 Poland        |            |             |           |               |
+|                     |            |             |           |               |  
+
+
+##### Education and courses
+* Bachelor Degree in Mathematics, Minsk, Belarus  
+
+* Master Degree in Logistics, Molde, Norway  
   
+* [Basic Front-End Developer Course on Udemy.com](https://www.udemy.com/share/101Wy23@SoAVUfhOxMvH2BEFO7epAmttYr29LsOxMxp-sDshRD1nLVBsvMi3zbeR2HTIIwoP5g==/)
+*****
+##### Experience
+* I just started learning front end development. I have realized one commercial project on my own. This is my first webpage. [http://hub-trans.com/](http://hub-trans.com/)
+*****  
 
 |__Languages__                |
 |-----------------------------|
 |__Russian__ - Native         |
 |__Polish__ - Advanced        |
-|__English__ - Advanced       |
+|__English__ - Upper Intermediate|
 |                                           |
 | [Link to the result of the online test](https://www.efset.org/cert/UNBJ2m)|
-| ![logo](./logo.svg)|  
+| ![logo](./logo.svg)         |  
   
   
-
-|__Hobbies__                 |
-|----------------------------|
-|* Jogging                   |
-|* Cycling                   |
-|* Travel                    |
+__Hobbies__: _Jogging, Cycling, Travel_  
