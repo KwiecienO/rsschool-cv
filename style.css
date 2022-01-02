@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Dosis:wght@200&family=Nanum+Gothic&family=Quicksand&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    
+}
+
+main #contact-info {
+    flex: 0 0 20vw;
+    background: #B7D1DA;
+}
+
+header,
+footer,
+article,
+nav {
+    padding: 1em;
+}
+
+footer {
+    background: #697268;
+    height: 15vh;
+}
+
+header {
+    background: #B7D1DA;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ h1 {
+     font-size: 2rem;
+ }
+#school-logo { 
+    width: 5%;
+}
+
+#contacts {
+    list-style-type: none;
+}
+
+#my-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ddd;
+}
+
+nav {
+    background-color: #E2E8DD;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav a {
+    color: #AEB7B3;
+    text-align: center;
+    padding: 0px 26px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #697268;
+    color: 95A3A40;
+}
+
+nav a.active {
+    background-color: #697268;
+    color: #FFFF;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    main {
+      display: block;
+    }
+    nav {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: 1.25rem;
+    }
+    header {
+        height: 4rem;
+        justify-content: center;
+    }
+
+  }
