@@ -1,3 +1,33 @@
-.header1 {
-    font-weight: 20px;
-}
+* {
+    box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #section {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #section > article {
+    flex: 1;
+  }
+  #section > nav {
+    flex: 0 0 20vw;
+    background: red;
+  }
+  #section > nav {
+    order: -1;
+  }
+  
+
+  header, 
+  footer, 
+  article, 
+  nav {
+    padding: 1em;
+  }
+  header, 
+  footer {
+    background: green;
+    height: 20vh;
+  }
