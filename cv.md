@@ -1,7 +1,7 @@
 # Volha  Kuratnik
 
                                        
-![my image](./img2.jpg)
+![my image](.img/img2.jpg)
 
 __Career Goal__ - To finish RS school and obtain a responsible and challenging Front End Developer’s position  
 ****  
@@ -33,7 +33,7 @@ __Polish__ - Advanced
 __English__ - Upper Intermediate  
 
 [Link to the result of the online test](https://www.efset.org/cert/UNBJ2m)  
-![logo](./logo.svg) 
+![logo](.img/logo.svg) 
 
 
 __Hobbies__: _Jogging, Cycling, Travel_  
