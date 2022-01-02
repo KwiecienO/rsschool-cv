@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header><a name="home"></a>
+    <header id="home">
         <div id="page_title">
             <h1>Volha Kuratnik</h1>
         </div>
@@ -70,11 +70,11 @@
                 I'm starting to learn JavaScript. Here is an implementation of a function that multiplies numbers in a
                 given range, including range boundaries.
                 <pre>
-                 <code><a name="code"></a>
+                 <code id="code">
                 const multiplyNumbersFromRange = (LowerRange, UpperRange) => {
                     let i = LowerRange;
                     let multiplication = 1;
-                    while(i <= UpperRange) {
+                    while(i < = UpperRange) {
                       multiplication = multiplication * i;
                       i++;
                     }
@@ -86,7 +86,8 @@
         </article>
     </main>
 
-    <footer <div class='footer-content'>
+    <footer>
+        <div class='footer-content'>
         <div>CV was created as a taks at "JavaScript/Front-end" course by
             <a target="_blank" href="https://github.com/KwiecienO">KwiecienO</a> at
             <a target="_blank" href="https://rs.school/js/">RS School</a>
