@@ -1,12 +1,102 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css" type="text/css" />
     <title>CV Volha Kuratnik</title>
 </head>
+
 <body>
-    <h1 class="header1">Volha Kuratnik</h1>
+    <header id="home">
+        <div id="page_title">
+            <h1>Volha Kuratnik</h1>
+        </div>
+    </header>
+    <nav>
+        <a class="active" href="#home">Home</a>
+        <a href="#code">My code example</a>
+        <a target="_blank" href="https://github.com/KwiecienO">My github</a>
+        <a target="_blank" href="http://hub-trans.com/">My first commercial project</a>
+        <a target="_blank" href="https://www.efset.org/cert/UNBJ2m">Result of English online test</a>
+    </nav>
+    <main>
+        <article id="contact-info">
+            <img id="my-photo" src="./img/img2.jpg" alt="My photo">
+            <ul id="contacts">
+                <li>Address: Torun, Poland</li>
+                <li>Phone: +48 791647564 </li>
+                <li>Email: volhakuratnik@gmail.com </li>
+                <li>Discord name: Kwiecien#9756</li>
+            </ul>
+            <h3 class="h3">Languages</h3>
+            <ul>
+                <li>Russian - Native </li>
+                <li>Polish - Advanced </li>
+                <li>English - Upper Intermediate </li>
+            </ul>
+            I completed my master's degree in English in Norway.
+            <h3 class="h3"> Hobbies:</h3>
+            <ul>
+                <li>Jogging</li>
+                <li>Cycling </li>
+                <li>Travel</li>
+            </ul>
+        </article>
+        <article>
+            <div>
+                <h2>Career Goal</h2> To finish RS school and obtain a responsible and challenging Front End Developer’s
+                position
+            </div>
+            <div>
+                <h2>Education and courses</h2>
+                <ul>
+                    <li>Bachelor Degree in Mathematics, Minsk, Belarus </li>
+                    <li>Master Degree in Logistics, Molde, Norway </li>
+                    <li>Basic Front-End Developer Course, <a target="_blank"
+                            href="https://www.udemy.com/share/101Wy23@SoAVUfhOxMvH2BEFO7epAmttYr29LsOxMxp-sDshRD1nLVBsvMi3zbeR2HTIIwoP5g==/">udemy.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Experience</h2> I've just started learning front end development. I have realized one commercial
+                project on my own. This is my first webpage:
+                <a target="_blank" href="http://hub-trans.com/">hub-trans.com</a>
+            </div>
+            <div>
+                <h2>Code example</h2>
+                I'm starting to learn JavaScript. Here is an implementation of a function that multiplies numbers in a
+                given range, including range boundaries.
+                <pre>
+                 <code id="code">
+                const multiplyNumbersFromRange = (LowerRange, UpperRange) => {
+                    let i = LowerRange;
+                    let multiplication = 1;
+                    while(i &lt; &#61; UpperRange) {
+                      multiplication = multiplication * i;
+                      i++;
+                    }
+                    return multiplication; 
+                    };
+                   </code>
+               </pre>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class='footer-content'>
+            <div>CV was created as a taks at "JavaScript/Front-end" course by
+                <a target="_blank" href="https://github.com/KwiecienO">KwiecienO</a> at
+                <a target="_blank" href="https://rs.school/js/">RS School</a>
+            </div>
+            <div>Year 2022 </div>
+            <img id="school-logo" src="./img/rs_school_js.svg" alt="RS school logo ">
+        </div>
+    </footer>
+
 </body>
+
 </html>
